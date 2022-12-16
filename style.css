@@ -73,13 +73,21 @@ section.imagens > p {
     background-color: #00000083;
     color: white;
     padding: 5px;
-    display: block;
-    width: 41vw;
 }
 
 section#flor {
     background: black url('https://professorguanabara.github.io/projeto-cordel/imagens/background001.jpg') right center fixed;
     background-size: cover;
+}
+
+section#flor > p {
+    display: block;
+    width: 41vw;
+}
+
+section#livro > p {
+    display: block;
+    width: 41.5vw;
 }
 
 section#livro {
